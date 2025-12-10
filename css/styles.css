@@ -25,16 +25,19 @@ body {
     border-width: 1px;
     margin: 0 auto;
     background-color: white;
+	border-radius: 25px;
 }
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
+    width: 930px;	/* reduced by 20px to accommodate shadow */
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
     border: 1px solid #888888;
     border-radius: 25px;  	
+	
+	background-color: rgb(6, 43, 77);
 }
 
 nav {
@@ -145,4 +148,29 @@ footer a:visited {
 footer a:hover {
     color: white;
 	text-decoration: underline;
+}
+
+
+.left {
+	padding-left: 6px;
+}
+
+.extraleft {
+	padding-left: 75px;
+}
+
+th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+form {
+	text-align:center;
 }
